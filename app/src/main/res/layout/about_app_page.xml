@@ -6,8 +6,22 @@
     android:layout_height="match_parent"
     android:background="@drawable/general_backgorund">
 
+    <Button
+        android:id="@+id/about_app_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="302dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#84B5B5"
+        android:text="Înapoi"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
-        android:id="@+id/about_app_textView"
+        android:id="@+id/about_diabetes_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Some text about the app"
@@ -19,26 +33,35 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="35dp"
+        android:text="Scăunșu Arina Mihalea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
         android:text="Lucrare dizertație"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="575dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.039"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:text="Master SIVA, 2021-2023"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="613dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Scăunșu Arina Mihalea"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="594dp" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

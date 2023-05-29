@@ -1,177 +1,236 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/general_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/general_backgorund">
 
-    <EditText
-        android:id="@+id/heart_no_vessels_fluro_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Nr. vase fluoroscopie"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="475dp" />
-
     <Button
         android:id="@+id/check_heart_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
         android:text="Verifică"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="302dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
         android:text="Înapoi"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/about_heart_data_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
         android:text="Despre date"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="379dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="9dp"
         android:text="Vă rugăm să introduceți valorile pentru atributele de mai jos:"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="6dp" />
-
-    <EditText
-        android:id="@+id/heart_blood_pressure_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Tensiune Arterială"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="160dp" />
-
-    <EditText
-        android:id="@+id/heart_thalium_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Taliu"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="520dp" />
-
-    <EditText
-        android:id="@+id/heart_sex_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sex"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="115dp" />
+        app:layout_constraintBottom_toTopOf="@+id/heart_age_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/heart_age_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
         android:ems="10"
         android:inputType="text"
         android:text="Vârsta"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="70dp" />
-
-    <EditText
-        android:id="@+id/heart_slope_of_st_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Panta ST"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="385dp" />
-
-    <EditText
-        android:id="@+id/heart_old_peak_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Old Peak"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="430dp" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/heart_exercise_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Excercițiu"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="610dp" />
-
-    <EditText
-        android:id="@+id/heart_heart_rate_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Puls"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="250dp" />
-
-    <EditText
-        android:id="@+id/heart_ecg_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="ECG"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="295dp" />
+        app:layout_constraintBottom_toTopOf="@+id/check_heart_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_blood_sugar_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/heart_blood_sugar_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Zahăr în sânge"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="565dp" />
+        app:layout_constraintBottom_toTopOf="@+id/heart_exercise_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_thalium_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_thalium_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Taliu"
+        app:layout_constraintBottom_toTopOf="@+id/heart_blood_sugar_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_no_vessels_fluro_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_no_vessels_fluro_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Nr. vase fluoroscopie"
+        app:layout_constraintBottom_toTopOf="@+id/heart_thalium_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_old_peak_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_old_peak_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Old Peak"
+        app:layout_constraintBottom_toTopOf="@+id/heart_no_vessels_fluro_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_slope_of_st_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/heart_chest_pain_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Durere în piept"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="340dp" />
+        app:layout_constraintBottom_toTopOf="@+id/heart_slope_of_st_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_ecg_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_ecg_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="ECG"
+        app:layout_constraintBottom_toTopOf="@+id/heart_chest_pain_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_heart_rate_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_heart_rate_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Puls"
+        app:layout_constraintBottom_toTopOf="@+id/heart_ecg_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_cholestrol_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/heart_cholestrol_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Colesterol"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        app:layout_constraintBottom_toTopOf="@+id/heart_heart_rate_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_blood_pressure_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_blood_pressure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tensiune Arterială"
+        app:layout_constraintBottom_toTopOf="@+id/heart_cholestrol_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_sex_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_sex_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sex"
+        app:layout_constraintBottom_toTopOf="@+id/heart_blood_pressure_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_age_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/heart_slope_of_st_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Panta ST"
+        app:layout_constraintBottom_toTopOf="@+id/heart_old_peak_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heart_chest_pain_text"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

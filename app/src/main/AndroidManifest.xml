@@ -13,6 +13,36 @@
         android:theme="@style/Theme.ANDROIDDiseaseDetector"
         tools:targetApi="31">
         <activity
+            android:name=".KidneyAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KidneyCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeartAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeartCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiabetesAboutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiabetesCheckActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AboutAppActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HeartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".KidneyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiabetesActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

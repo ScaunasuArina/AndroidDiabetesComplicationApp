@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/general_view"
     android:layout_width="match_parent"
@@ -7,171 +8,230 @@
     android:background="@drawable/general_backgorund">
 
     <Button
-        android:id="@+id/check_diabetes_button"
+        android:id="@+id/about_diabetes_data_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
-        android:text="Verifică"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:text="Despre date"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="302dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
         android:text="Înapoi"
-        tools:layout_editor_absoluteX="307dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/about_diabetes_data_button"
+        android:id="@+id/check_diabetes_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="293dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
-        android:text="Despre date"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="677dp" />
+        android:text="Verifică"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="365dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="9dp"
         android:text="Vă rugăm să introduceți valorile pentru atributele de mai jos:"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="7dp" />
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_age_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:layout_constraintVertical_chainStyle="spread" />
 
     <EditText
         android:id="@+id/diabetes_income_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
         android:ems="10"
         android:inputType="text"
         android:text="Venit"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="610dp" />
-
-    <EditText
-        android:id="@+id/diabetes_blood_pressure_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Tensiune Arterială"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="157dp" />
-
-    <EditText
-        android:id="@+id/diabetes_education_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Nivel de educație"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="565dp" />
-
-    <EditText
-        android:id="@+id/diabetes_age_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Vârsta"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="67dp" />
-
-    <EditText
-        android:id="@+id/diabetes_sex_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sex"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="112dp" />
-
-    <EditText
-        android:id="@+id/diabetes_physical_health_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sănătate fizică"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="340dp" />
-
-    <EditText
-        android:id="@+id/diabetes_mental_health_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sănătate mentală"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="295dp" />
-
-    <EditText
-        android:id="@+id/diabetes_general_health_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Sănătate generală"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="250dp" />
-
-    <EditText
-        android:id="@+id/diabetes_fruits_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Fructe"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="475dp" />
-
-    <EditText
-        android:id="@+id/diabetes_physical_activity_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Activitate fizică"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="385dp" />
+        app:layout_constraintBottom_toTopOf="@+id/about_diabetes_data_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_education_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/diabetes_smoker_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Fumător"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="520dp" />
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_education_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_fruits_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
-        android:id="@+id/diabetes_bmi_text"
+        android:id="@+id/diabetes_education_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="BMI"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="430dp" />
+        android:text="Nivel de educație"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_income_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_smoker_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_fruits_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Fructe"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_smoker_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_bmi_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_physical_activity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Activitate fizică"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_bmi_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_physical_health_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_physical_health_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sănătate fizică"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_physical_activity_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_mental_health_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_mental_health_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sănătate mentală"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_physical_health_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_general_health_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_general_health_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sănătate generală"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_mental_health_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_cholestrol_text"
+        app:layout_constraintVertical_bias="0.5" />
 
     <EditText
         android:id="@+id/diabetes_cholestrol_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
         android:text="Colesterol"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_general_health_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_blood_pressure_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_blood_pressure_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Tensiune Arterială"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_cholestrol_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_sex_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_sex_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Sex"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_blood_pressure_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_age_text"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <EditText
+        android:id="@+id/diabetes_age_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="70dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Vârsta"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/diabetes_bmi_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="BMI"
+        app:layout_constraintBottom_toTopOf="@+id/diabetes_fruits_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diabetes_physical_activity_text"
+        app:layout_constraintVertical_bias="0.5" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
