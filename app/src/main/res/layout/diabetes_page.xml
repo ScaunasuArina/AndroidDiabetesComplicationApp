@@ -45,133 +45,133 @@
         tools:layout_editor_absoluteY="16dp" />
 
     <EditText
-        android:id="@+id/income_text"
+        android:id="@+id/diabetes_income_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Income"
+        android:text="Venit"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="610dp" />
 
     <EditText
-        android:id="@+id/blood_pressure_text"
+        android:id="@+id/diabetes_blood_pressure_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Blood Pressure"
+        android:text="Tensiune Arterială"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="70dp" />
+        tools:layout_editor_absoluteY="157dp" />
 
     <EditText
-        android:id="@+id/education_text"
+        android:id="@+id/diabetes_education_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Education"
+        android:text="Nivel de educație"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="565dp" />
 
     <EditText
-        android:id="@+id/age_text"
+        android:id="@+id/diabetes_age_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Age"
+        android:text="Vârsta"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="520dp" />
+        tools:layout_editor_absoluteY="67dp" />
 
     <EditText
-        android:id="@+id/sex_text"
+        android:id="@+id/diabetes_sex_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:text="Sex"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="475dp" />
+        tools:layout_editor_absoluteY="112dp" />
 
     <EditText
-        android:id="@+id/physical_health_text"
+        android:id="@+id/diabetes_physical_health_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Physical Health"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="430dp" />
-
-    <EditText
-        android:id="@+id/mental_health_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="Mental Health"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="385dp" />
-
-    <EditText
-        android:id="@+id/general_health_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="text"
-        android:text="General Health"
+        android:text="Sănătate fizică"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="340dp" />
 
     <EditText
-        android:id="@+id/fruits_text"
+        android:id="@+id/diabetes_mental_health_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Fruits"
+        android:text="Sănătate mentală"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="295dp" />
 
     <EditText
-        android:id="@+id/physical_activity_text"
+        android:id="@+id/diabetes_general_health_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Physical Activity"
+        android:text="Sănătate generală"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="250dp" />
 
     <EditText
-        android:id="@+id/smoker_text"
+        android:id="@+id/diabetes_fruits_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Smoker"
+        android:text="Fructe"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="205dp" />
+        tools:layout_editor_absoluteY="475dp" />
 
     <EditText
-        android:id="@+id/bmi_text"
+        android:id="@+id/diabetes_physical_activity_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Activitate fizică"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="385dp" />
+
+    <EditText
+        android:id="@+id/diabetes_smoker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Fumător"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="520dp" />
+
+    <EditText
+        android:id="@+id/diabetes_bmi_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         android:text="BMI"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="160dp" />
+        tools:layout_editor_absoluteY="430dp" />
 
     <EditText
-        android:id="@+id/cholesterol_text"
+        android:id="@+id/diabetes_cholestrol_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
-        android:text="Cholesterol"
+        android:text="Colesterol"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="115dp" />
+        tools:layout_editor_absoluteY="205dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
