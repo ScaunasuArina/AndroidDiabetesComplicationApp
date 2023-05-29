@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#84B5B5"
-        android:text="Verifica"
+        android:text="Verifică"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="677dp" />
 
@@ -20,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#84B5B5"
-        android:text="Inapoi"
+        android:text="Înapoi"
         tools:layout_editor_absoluteX="307dp"
         tools:layout_editor_absoluteY="677dp" />
 
@@ -37,12 +37,12 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Va rugam sa introduceti valorile pentru atributele de mai jos:"
+        android:text="Vă rugăm să introduceți valorile pentru atributele de mai jos:"
         android:textAlignment="textStart"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="20sp"
         tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteY="7dp" />
 
     <EditText
         android:id="@+id/diabetes_income_text"
