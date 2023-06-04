@@ -118,7 +118,7 @@
         android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Excercițiu"
+        android:text="Angină Pectorală"
         app:layout_constraintBottom_toTopOf="@+id/check_heart_button"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/heart_blood_sugar_text"

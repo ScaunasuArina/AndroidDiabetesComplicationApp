@@ -1,10 +1,31 @@
 package com.example.androiddiseasedetector;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.*;
 import android.content.*;
+
+//import okhttp3.Call;
+//import okhttp3.Callback;
+//import okhttp3.FormBody;
+//import okhttp3.OkHttpClient;
+//import okhttp3.Request;
+//import okhttp3.RequestBody;
+//import okhttp3.Response;
+
+import com.google.gson.JsonObject;
+
+import retrofit2.Callback;
+import retrofit2.Response;
+import retrofit2.http.*;
+import retrofit2.Call;
+
+import java.io.IOException;
+import java.util.Dictionary;
+import java.util.Hashtable;
+import java.util.concurrent.TimeUnit;
 
 public class DiabetesActivity extends AppCompatActivity {
     Button DiabetesCheckButton;
@@ -23,8 +44,6 @@ public class DiabetesActivity extends AppCompatActivity {
         DiabetesCheckButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                Intent intent_diabetes_check = new Intent(DiabetesActivity.this, DiabetesCheckActivity.class);
-//                startActivity(intent_diabetes_check);
                 EditText DiabetesAge, DiabetesSex, DiabetesBloodPressure, DiabetesCholestrol;
                 EditText DiabetesGeneralHealth, DiabetesMentalHealth, DiabetesPhysicalHealth;
                 EditText DiabetesPhysicalActivity, DiabetesBmi, DiabetesFruits, DiabetesSmoker;
@@ -45,6 +64,7 @@ public class DiabetesActivity extends AppCompatActivity {
                 DiabetesEducation = (EditText) findViewById(R.id.diabetes_education_text);
                 DiabetesIncome = (EditText) findViewById(R.id.diabetes_income_text);
 
+                // Convert data to String
                 String DiabetesAgeString = DiabetesAge.getText().toString();
                 String DiabetesSexString = DiabetesSex.getText().toString();
                 String DiabetesBloodPressureString = DiabetesBloodPressure.getText().toString();
@@ -59,15 +79,43 @@ public class DiabetesActivity extends AppCompatActivity {
                 String DiabetesEducationString = DiabetesEducation.getText().toString();
                 String DiabetesIncomeString = DiabetesIncome.getText().toString();
 
-                // Call The API for result
-                String Result = "PREZENT";
+                // Form data for request
+                DiabetesRequest diabetesRequest = new DiabetesRequest();
+                diabetesRequest.setAge(Integer.valueOf(DiabetesAgeString));
+                diabetesRequest.setSex(Integer.valueOf(DiabetesSexString));
+                diabetesRequest.setBlood_pressure(Integer.valueOf(DiabetesBloodPressureString));
+                diabetesRequest.setCholestrol(Integer.valueOf(DiabetesCholestrolString));
+                diabetesRequest.setBmi(Integer.valueOf(DiabetesBmiString));
+                diabetesRequest.setSmoker(Integer.valueOf(DiabetesSmokerString));
+                diabetesRequest.setPhysical_activity(Integer.valueOf(DiabetesPhysicalActivityString));
+                diabetesRequest.setFruits(Integer.valueOf(DiabetesFruitsString));
+                diabetesRequest.setGeneral_health(Integer.valueOf(DiabetesGeneralHealthString));
+                diabetesRequest.setMental_health(Integer.valueOf(DiabetesMentalHealthString));
+                diabetesRequest.setPhysical_health(Integer.valueOf(DiabetesPhysicalHealthString));
+                diabetesRequest.setEducation(Integer.valueOf(DiabetesEducationString));
+                diabetesRequest.setIncome(Integer.valueOf(DiabetesIncomeString));
 
-                // Write the result from API to EditText
                 EditText DiabetesResultText;
                 DiabetesResultText = (EditText) findViewById(R.id.diabetes_result_text);
-                DiabetesResultText.setText(Result);
+
+                APIInterfaceDiabetes apiInterface = APIClientDiabetes.getClient()
+                        .create(APIInterfaceDiabetes.class);
+                Call<JsonObject> call = apiInterface.test_body(diabetesRequest);
+                call.enqueue(new Callback<JsonObject>() {
+                    @Override
+                    public void onResponse(Call<JsonObject> call, Response<JsonObject> response) {
+                        DiabetesResultText.setText(String.valueOf(response.body().get("response")));
+                    }
+
+                    @Override
+                    public void onFailure(Call<JsonObject> call, Throwable t) {
+                        DiabetesResultText.setText("FAIL");
+                    }
+                });
             }
-        });
+
+});
+
 
         DiabetesAboutButton.setOnClickListener(new View.OnClickListener() {
             @Override
