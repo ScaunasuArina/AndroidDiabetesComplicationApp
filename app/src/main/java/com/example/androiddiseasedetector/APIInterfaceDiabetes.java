@@ -10,5 +10,5 @@ public interface APIInterfaceDiabetes {
     Call<JsonObject> test();
 
     @POST("diabetes_disease/result")
-    Call<JsonObject> test_body(@Body DiabetesRequest diabetesRequest);
+    Call<JsonObject> get_result(@Body DiabetesRequest diabetesRequest);
 }
