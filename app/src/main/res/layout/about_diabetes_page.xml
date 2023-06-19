@@ -7,371 +7,108 @@
     android:background="@drawable/general_backgorund">
 
     <TextView
-        android:id="@+id/textView30"
-        android:layout_width="381dp"
-        android:layout_height="32dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="392dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="422dp"
-        android:text="Panta ST - varful aferent pentru panta ST. Poate contine una dintre valorile:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView31"
+        android:id="@+id/textView45"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="427dp"
-        android:layout_marginEnd="286dp"
-        android:layout_marginBottom="400dp"
-        android:text="1 - lipsa panta"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView32"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="476dp"
-        android:layout_marginBottom="335dp"
-        android:text="Old Peak - varful segmentului ST din timpul exercitiului. Poate avea aceleasi valori ca si Panta ST de mai sus "
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView33"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="622dp"
-        android:layout_marginEnd="297dp"
-        android:layout_marginBottom="205dp"
-        android:text="6 - defect fix"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView34"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="603dp"
-        android:layout_marginEnd="113dp"
-        android:layout_marginBottom="224dp"
-        android:text="7 - defect reversibil"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView35"
-        android:layout_width="381dp"
-        android:layout_height="33dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="570dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="243dp"
-        android:text="Taliu - nivelul de taliu din organism. Poate avea una dintre valorile:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView36"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="524dp"
-        android:layout_marginBottom="287dp"
-        android:text="Nr. vase fluoroscopie - numarul de vase colorate in urma fluoroscopiei. Poate avea valori intre 0 si 3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView37"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="603dp"
-        android:layout_marginEnd="311dp"
-        android:layout_marginBottom="224dp"
-        android:text="3 - normal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView38"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="446dp"
-        android:layout_marginEnd="273dp"
-        android:layout_marginBottom="381dp"
-        android:text="2 - panta neteda"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView39"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="427dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="400dp"
-        android:text="3 - panta descrescatoare"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/about_heart_textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="185dp"
-        android:layout_marginBottom="811dp"
-        android:text="Varsta - varsta in ani a pacientului"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView40"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="785dp"
-        android:text="Sex - genul pacientului (poate fi 1 - masculin sau 0 - feminin)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView41"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="69dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="758dp"
-        android:text="Tensiune Arteriala- tensiunea arteriala exprimata in mm/Hg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="94dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="733dp"
-        android:text="Colesterol - nivelul de colesterol exprimat in mg/dl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView43"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="121dp"
-        android:layout_marginEnd="218dp"
-        android:layout_marginBottom="706dp"
-        android:text="Puls - pulsul maxim masurat"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Sănătate fizică - Notă acordată pentru sănătatea fizică\nîntre 0 și 30"
+        tools:layout_editor_absoluteX="15dp"
+        tools:layout_editor_absoluteY="214dp" />
 
     <TextView
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="140dp"
-        android:layout_marginBottom="671dp"
-        android:text="ECG - rezultat electrocardiograma. Poate contine una dintre urmatoarele valori:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        android:text="Sănătate mentală - Notă acordată pentru sănătatea mentală \nîntre 0 și 30"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="167dp" />
 
     <TextView
-        android:id="@+id/textView45"
+        android:id="@+id/textView30"
+        android:layout_width="382dp"
+        android:layout_height="20dp"
+        android:text="BMI - Indicele de masă corporală"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <TextView
+        android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="183dp"
-        android:layout_marginEnd="266dp"
-        android:layout_marginBottom="644dp"
-        android:text="0 - valori normale"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="Fructe - Indică consumul a minim un fruct pe zi\n         0 - nu     1 - da"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="348dp" />
 
     <TextView
-        android:id="@+id/textView46"
-        android:layout_width="362dp"
-        android:layout_height="51dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="202dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginBottom="593dp"
-        android:text="1 - panta ST-T anormala (inversarea undei T si/sau ridicarea sau scaderea pantei ST cu > 0.05 mV)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView35"
+        android:layout_width="387dp"
+        android:layout_height="105dp"
+        android:text="Nivel de educație - Nivelul maxim de educație absolvit\n1 – nu a fost deloc la școală/grădiniță\n2 – Școala generală (clasele 1-8)\n3 – Liceu (clasele 9-12)\n4 – Absolvent de liceu\n6 – Absolvent de facultate"
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="461dp" />
 
     <TextView
-        android:id="@+id/textView47"
-        android:layout_width="358dp"
-        android:layout_height="38dp"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="241dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="567dp"
-        android:text="2 - hipertrofie ventriculara stanga probabila sau certa dupa criteriile lui Estes"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/textView36"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fumător - Indică dacă pacientul este fumător (sau dacă a\nfumat cel puțin 100 de țigări pe parcursul vieții)\n         0 - nu     1 - da"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <TextView
+        android:id="@+id/about_heart_textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vârsta - vârsta în ani a pacientului"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sex - genul pacientului (poate fi 1 - masculin sau 0 - feminin)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tensiune Arteriala- tensiunea arteriala exprimată în mm/Hg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="69dp" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Colesterol - nivelul de colesterol exprimat în mg/dl"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sănătate generală - Notă acordată pentru sănătate în general\nîntre 1 și 5"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="120dp" />
 
     <TextView
         android:id="@+id/textView48"
-        android:layout_width="389dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="287dp"
-        android:layout_marginEnd="6dp"
-        android:layout_marginBottom="523dp"
-        android:text="Durere in piept - tipul de durere in piept. Poate contine una dintre urmatoarele valori:"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView49"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="326dp"
-        android:layout_marginEnd="275dp"
-        android:layout_marginBottom="501dp"
-        android:text="1 - angina tipica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView50"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="37dp"
-        android:layout_marginTop="345dp"
-        android:layout_marginEnd="267dp"
-        android:layout_marginBottom="482dp"
-        android:text="2 - angina atipica"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView51"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="326dp"
-        android:layout_marginEnd="77dp"
-        android:layout_marginBottom="501dp"
-        android:text="3 - durere non-anginoasa"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView52"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="179dp"
-        android:layout_marginTop="345dp"
-        android:layout_marginEnd="127dp"
-        android:layout_marginBottom="482dp"
-        android:text="4 - asimptomatic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="390dp"
+        android:layout_height="54dp"
+        android:text="Activitate fizică - Indică dacă pacientul a avut activitate fizică în ultimele 30 de zile în afara locului de muncă\n         0 - nu     1 - da"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="257dp" />
 
     <TextView
         android:id="@+id/textView53"
-        android:layout_width="364dp"
-        android:layout_height="36dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="700dp"
-        android:layout_marginEnd="31dp"
-        android:layout_marginBottom="110dp"
-        android:text="Angina pectorala - angina pectorala indusa de efort (0 - nu, 1 - da)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/textView54"
-        android:layout_width="381dp"
-        android:layout_height="39dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="651dp"
-        android:layout_marginEnd="14dp"
-        android:layout_marginBottom="156dp"
-        android:text="Nivelul de zahar din sange - precizeada daca nivelul de zahar din sange depaseste 120 mg/dl (0 - nu, 1 - da)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_width="378dp"
+        android:layout_height="196dp"
+        android:text="Venit - Venitul per locuință\n1 – Sub 10.000$ \n2 – Între 10.000 și 15.000$\n3 – Între 15.000 și 20.000$\n4 – Între 20.000 și 25.000$\n5 – Între 25.000 și 35.000$\n6 – Între 35.000 și 50.000$ \n7 – Între 50.000 și 75.000$\n8 – Peste 75.000$ "
+        tools:layout_editor_absoluteX="14dp"
+        tools:layout_editor_absoluteY="578dp" />
 
     <Button
         android:id="@+id/about_diabetes_back_button"
