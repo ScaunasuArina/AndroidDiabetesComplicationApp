@@ -12,9 +12,7 @@
         android:layout_height="67dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="373dp"
-        android:layout_marginBottom="406dp"
         android:text="Panta ST - vărful aferent pentru panta ST. Poate conține una dintre valorile:\n       1 - lipsă pantă              3 - pantă descrescătoare\n       2 - pantă netedă"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,9 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="448dp"
-        android:layout_marginBottom="363dp"
         android:text="Old Peak - vârful segmentului ST din timpul exercițiului. Poate avea aceleași valori ca și Panta ST de mai sus "
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -36,9 +32,7 @@
         android:layout_height="75dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="545dp"
-        android:layout_marginBottom="226dp"
         android:text="Taliu - nivelul de taliu din organism. Poate avea una dintre valorile:\n       3 - normal                     7 - defect reversibil\n       6 - defect fix"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -48,9 +42,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="495dp"
-        android:layout_marginBottom="316dp"
         android:text="Nr. vase fluoroscopie - numărul de vase colorate în urma fluoroscopiei. Poate avea valori între 0 și 3"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -74,11 +66,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:layout_marginEnd="185dp"
-        android:layout_marginBottom="811dp"
         android:text="Vârsta - vârsta în ani a pacientului"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -88,11 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
-        android:layout_marginEnd="21dp"
-        android:layout_marginBottom="785dp"
         android:text="Sex - genul pacientului (poate fi 1 - masculin sau 0 - feminin)"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,11 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="69dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginBottom="758dp"
         android:text="Tensiune Arterială- tensiunea arterială exprimată în mm/Hg"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -116,11 +96,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="94dp"
-        android:layout_marginEnd="83dp"
-        android:layout_marginBottom="733dp"
         android:text="Colesterol - nivelul de colesterol exprimat în mg/dl"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -130,11 +106,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="121dp"
-        android:layout_marginEnd="218dp"
-        android:layout_marginBottom="706dp"
         android:text="Puls - pulsul maxim măsurat"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -144,9 +116,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="152dp"
-        android:layout_marginBottom="577dp"
         android:text="ECG - rezultat electrocardiogramă. Poate conține una dintre următoarele valori:\n       0 - valori normale\n       1 - panta ST-T anormală (inversarea undei T și/sau\nridicarea sau scăderea pantei ST cu > 0.05 mV)\n       2 - hipertrofie ventriculară stângă probabilă sau certă după criteriile lui Estes"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -156,9 +126,7 @@
         android:layout_height="78dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="286dp"
-        android:layout_marginBottom="482dp"
         android:text="Durere în piept - tipul de durere în piept. Poate conține una dintre următoarele valori:\n       1 - angina tipică           3 - durere non-anginoasă\n       2 - angina atipică         4 - asimptomatic"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -168,9 +136,7 @@
         android:layout_height="36dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="677dp"
-        android:layout_marginBottom="133dp"
         android:text="Angina pectorală - angina pectorală indusă de efort (0 - nu, 1 - da)"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -180,9 +146,7 @@
         android:layout_height="39dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="631dp"
-        android:layout_marginBottom="176dp"
         android:text="Nivelul de zahăr din sânge - precizează dacă nivelul de zahăr din sânge depășește 120 mg/dl (0 - nu, 1 - da)"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
