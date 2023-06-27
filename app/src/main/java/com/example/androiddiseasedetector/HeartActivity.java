@@ -63,17 +63,17 @@ public class HeartActivity extends AppCompatActivity {
 
             // Form data for request
             HeartRequest heartRequest = new HeartRequest();
-            heartRequest.setAge(Integer.valueOf(HeartAgeString));
-            heartRequest.setSex(Integer.valueOf(HeartSexString));
-            heartRequest.setChest_pain(Integer.valueOf(HeartChestPainString));
-            heartRequest.setBlood_pressure(Integer.valueOf(HeartBloodPressureString));
-            heartRequest.setCholestrol(Integer.valueOf(HeartCholestrolString));
-            heartRequest.setHeart_rate(Integer.valueOf(HeartHeartRateString));
-            heartRequest.setEcg(Integer.valueOf(HeartEcgString));
-            heartRequest.setOld_peak(Integer.valueOf(HeartOldPeakString));
-            heartRequest.setThallium_scan(Integer.valueOf(HeartThaliumString));
-            heartRequest.setBlood_sugar(Integer.valueOf(HeartBloodSugarString));
-            heartRequest.setExercise(Integer.valueOf(HeartExerciseString));
+            heartRequest.setAge(Float.valueOf(HeartAgeString));
+            heartRequest.setSex(Float.valueOf(HeartSexString));
+            heartRequest.setChest_pain(Float.valueOf(HeartChestPainString));
+            heartRequest.setBlood_pressure(Float.valueOf(HeartBloodPressureString));
+            heartRequest.setCholestrol(Float.valueOf(HeartCholestrolString));
+            heartRequest.setHeart_rate(Float.valueOf(HeartHeartRateString));
+            heartRequest.setEcg(Float.valueOf(HeartEcgString));
+            heartRequest.setOld_peak(Float.valueOf(HeartOldPeakString));
+            heartRequest.setThallium_scan(Float.valueOf(HeartThaliumString));
+            heartRequest.setBlood_sugar(Float.valueOf(HeartBloodSugarString));
+            heartRequest.setExercise(Float.valueOf(HeartExerciseString));
 
             EditText HeartResultText;
             HeartResultText = (EditText) findViewById(R.id.heart_result_text);

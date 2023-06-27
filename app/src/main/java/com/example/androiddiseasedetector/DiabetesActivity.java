@@ -79,19 +79,19 @@ public class DiabetesActivity extends AppCompatActivity {
 
             // Form data for request
             DiabetesRequest diabetesRequest = new DiabetesRequest();
-            diabetesRequest.setAge(Integer.valueOf(DiabetesAgeString));
-            diabetesRequest.setSex(Integer.valueOf(DiabetesSexString));
-            diabetesRequest.setBlood_pressure(Integer.valueOf(DiabetesBloodPressureString));
-            diabetesRequest.setCholestrol(Integer.valueOf(DiabetesCholestrolString));
-            diabetesRequest.setBmi(Integer.valueOf(DiabetesBmiString));
-            diabetesRequest.setSmoker(Integer.valueOf(DiabetesSmokerString));
-            diabetesRequest.setPhysical_activity(Integer.valueOf(DiabetesPhysicalActivityString));
-            diabetesRequest.setFruits(Integer.valueOf(DiabetesFruitsString));
-            diabetesRequest.setGeneral_health(Integer.valueOf(DiabetesGeneralHealthString));
-            diabetesRequest.setMental_health(Integer.valueOf(DiabetesMentalHealthString));
-            diabetesRequest.setPhysical_health(Integer.valueOf(DiabetesPhysicalHealthString));
-            diabetesRequest.setEducation(Integer.valueOf(DiabetesEducationString));
-            diabetesRequest.setIncome(Integer.valueOf(DiabetesIncomeString));
+            diabetesRequest.setAge(Float.valueOf(DiabetesAgeString));
+            diabetesRequest.setSex(Float.valueOf(DiabetesSexString));
+            diabetesRequest.setBlood_pressure(Float.valueOf(DiabetesBloodPressureString));
+            diabetesRequest.setCholestrol(Float.valueOf(DiabetesCholestrolString));
+            diabetesRequest.setBmi(Float.valueOf(DiabetesBmiString));
+            diabetesRequest.setSmoker(Float.valueOf(DiabetesSmokerString));
+            diabetesRequest.setPhysical_activity(Float.valueOf(DiabetesPhysicalActivityString));
+            diabetesRequest.setFruits(Float.valueOf(DiabetesFruitsString));
+            diabetesRequest.setGeneral_health(Float.valueOf(DiabetesGeneralHealthString));
+            diabetesRequest.setMental_health(Float.valueOf(DiabetesMentalHealthString));
+            diabetesRequest.setPhysical_health(Float.valueOf(DiabetesPhysicalHealthString));
+            diabetesRequest.setEducation(Float.valueOf(DiabetesEducationString));
+            diabetesRequest.setIncome(Float.valueOf(DiabetesIncomeString));
 
             EditText DiabetesResultText;
             DiabetesResultText = (EditText) findViewById(R.id.diabetes_result_text);

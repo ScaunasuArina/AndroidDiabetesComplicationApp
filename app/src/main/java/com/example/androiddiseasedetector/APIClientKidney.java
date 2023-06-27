@@ -15,7 +15,7 @@ public class APIClientKidney {
 
 
         retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.1.13:8448")
+                .baseUrl("http://192.168.1.6:8448")
                 .addConverterFactory(GsonConverterFactory.create(new GsonBuilder()
                         .setLenient()
                         .create()))
