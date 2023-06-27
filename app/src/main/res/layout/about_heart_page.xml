@@ -64,7 +64,7 @@
         android:id="@+id/about_heart_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="15dp"
         android:layout_marginTop="16dp"
         android:text="Vârsta - vârsta în ani a pacientului"
         app:layout_constraintStart_toStartOf="parent"
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="42dp"
-        android:text="Sex - genul pacientului (poate fi 1 - masculin sau 0 - feminin)"
+        android:text="Sex - genul pacientului \n         0 - feminin     1 - masculin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="69dp"
+        android:layout_marginTop="76dp"
         android:text="Tensiune Arterială- tensiunea arterială exprimată în mm/Hg"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -95,7 +95,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="94dp"
+        android:layout_marginTop="103dp"
         android:text="Colesterol - nivelul de colesterol exprimat în mg/dl"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -105,7 +105,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="121dp"
+        android:layout_marginTop="133dp"
         android:text="Puls - pulsul maxim măsurat"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -115,7 +115,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="160dp"
         android:text="ECG - rezultat electrocardiogramă. Poate conține una dintre următoarele valori:\n       0 - valori normale\n       1 - panta ST-T anormală (inversarea undei T și/sau\nridicarea sau scăderea pantei ST cu > 0.05 mV)\n       2 - hipertrofie ventriculară stângă probabilă sau certă după criteriile lui Estes"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -146,7 +146,7 @@
         android:layout_height="39dp"
         android:layout_marginStart="15dp"
         android:layout_marginTop="631dp"
-        android:text="Nivelul de zahăr din sânge - precizează dacă nivelul de zahăr din sânge depășește 120 mg/dl (0 - nu, 1 - da)"
+        android:text="Nivel ridicat zahăr în sânge - precizează dacă nivelul de zahăr din sânge depășește 120 mg/dl (0 - nu, 1 - da)"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

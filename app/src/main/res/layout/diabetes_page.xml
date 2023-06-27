@@ -102,7 +102,7 @@
 
     <EditText
         android:id="@+id/diabetes_income_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="17dp"
         android:ems="10"
@@ -115,7 +115,7 @@
 
     <EditText
         android:id="@+id/diabetes_smoker_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -128,7 +128,7 @@
 
     <EditText
         android:id="@+id/diabetes_education_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -141,7 +141,7 @@
 
     <EditText
         android:id="@+id/diabetes_fruits_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -154,7 +154,7 @@
 
     <EditText
         android:id="@+id/diabetes_physical_activity_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -167,7 +167,7 @@
 
     <EditText
         android:id="@+id/diabetes_physical_health_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -180,7 +180,7 @@
 
     <EditText
         android:id="@+id/diabetes_mental_health_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -193,7 +193,7 @@
 
     <EditText
         android:id="@+id/diabetes_general_health_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -206,12 +206,12 @@
 
     <EditText
         android:id="@+id/diabetes_cholestrol_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="53dp"
         android:layout_marginStart="16dp"
         android:ems="10"
+        android:hint="Colesterol ridicat"
         android:inputType="text"
-        android:hint="Colesterol"
         app:layout_constraintBottom_toTopOf="@+id/diabetes_general_health_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/diabetes_blood_pressure_text"
@@ -219,12 +219,12 @@
 
     <EditText
         android:id="@+id/diabetes_blood_pressure_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:ems="10"
+        android:hint="Tensiune arterială ridicată"
         android:inputType="text"
-        android:hint="Tensiune Arterială"
         app:layout_constraintBottom_toTopOf="@+id/diabetes_cholestrol_text"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/diabetes_sex_text"
@@ -232,8 +232,8 @@
 
     <EditText
         android:id="@+id/diabetes_sex_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="225dp"
+        android:layout_height="43dp"
         android:layout_marginStart="16dp"
         android:ems="10"
         android:inputType="text"
@@ -245,7 +245,7 @@
 
     <EditText
         android:id="@+id/diabetes_age_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="70dp"
@@ -257,7 +257,7 @@
 
     <EditText
         android:id="@+id/diabetes_bmi_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"

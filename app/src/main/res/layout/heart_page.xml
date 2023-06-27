@@ -101,7 +101,7 @@
 
     <EditText
         android:id="@+id/heart_age_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="70dp"
@@ -113,7 +113,7 @@
 
     <EditText
         android:id="@+id/heart_exercise_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -126,11 +126,11 @@
 
     <EditText
         android:id="@+id/heart_blood_sugar_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
-        android:hint="Zahăr în sânge"
+        android:hint="Nivel ridicat zahăr în sânge"
         android:inputType="text"
         app:layout_constraintBottom_toTopOf="@+id/heart_exercise_text"
         app:layout_constraintStart_toStartOf="parent"
@@ -139,7 +139,7 @@
 
     <EditText
         android:id="@+id/heart_thalium_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -152,7 +152,7 @@
 
     <EditText
         android:id="@+id/heart_no_vessels_fluro_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -165,7 +165,7 @@
 
     <EditText
         android:id="@+id/heart_old_peak_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -178,7 +178,7 @@
 
     <EditText
         android:id="@+id/heart_chest_pain_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -191,7 +191,7 @@
 
     <EditText
         android:id="@+id/heart_ecg_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -204,7 +204,7 @@
 
     <EditText
         android:id="@+id/heart_heart_rate_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -217,7 +217,7 @@
 
     <EditText
         android:id="@+id/heart_cholestrol_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -230,7 +230,7 @@
 
     <EditText
         android:id="@+id/heart_blood_pressure_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -243,7 +243,7 @@
 
     <EditText
         android:id="@+id/heart_sex_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -256,7 +256,7 @@
 
     <EditText
         android:id="@+id/heart_slope_of_st_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"

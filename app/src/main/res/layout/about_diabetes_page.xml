@@ -8,10 +8,10 @@
 
     <TextView
         android:id="@+id/textView45"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="15dp"
-        android:layout_marginTop="214dp"
+        android:layout_width="385dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="272dp"
         android:text="Sănătate fizică - Notă acordată pentru sănătatea fizică\nîntre 0 și 30"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -20,8 +20,8 @@
         android:id="@+id/textView44"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="167dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="230dp"
         android:text="Sănătate mentală - Notă acordată pentru sănătatea mentală \nîntre 0 și 30"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -30,8 +30,8 @@
         android:id="@+id/textView30"
         android:layout_width="382dp"
         android:layout_height="20dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="319dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="368dp"
         android:text="BMI - Indicele de masă corporală"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -40,8 +40,8 @@
         android:id="@+id/textView32"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="348dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="395dp"
         android:text="Fructe - Indică consumul a minim un fruct pe zi\n         0 - nu     1 - da"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -50,8 +50,8 @@
         android:id="@+id/textView35"
         android:layout_width="387dp"
         android:layout_height="105dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="461dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="499dp"
         android:text="Nivel de educație - Nivelul maxim de educație absolvit\n1 – nu a fost deloc la școală/grădiniță\n2 – Școala generală (clasele 1-8)\n3 – Liceu (clasele 9-12)\n4 – Absolvent de liceu\n6 – Absolvent de facultate"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -60,8 +60,8 @@
         android:id="@+id/textView36"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="398dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="437dp"
         android:text="Fumător - Indică dacă pacientul este fumător (sau dacă a\nfumat cel puțin 100 de țigări pe parcursul vieții)\n         0 - nu     1 - da"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -70,7 +70,7 @@
         android:id="@+id/about_heart_textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:text="Vârsta - vârsta în ani a pacientului"
         app:layout_constraintStart_toStartOf="parent"
@@ -80,9 +80,9 @@
         android:id="@+id/textView40"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="42dp"
-        android:text="Sex - genul pacientului (poate fi 1 - masculin sau 0 - feminin)"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="44dp"
+        android:text="Sex - genul pacientului \n         0 - feminin     1 - masculin"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -90,19 +90,19 @@
         android:id="@+id/textView41"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="69dp"
-        android:text="Tensiune Arteriala- tensiunea arteriala exprimată în mm/Hg"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="79dp"
+        android:text="Tensiune Arteriala ridicată - pacientul a fost anunțat de cadre medicale că are tensiunea arterială mare\n         0 - nu     1 - da"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView42"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="94dp"
-        android:text="Colesterol - nivelul de colesterol exprimat în mg/dl"
+        android:layout_width="397dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="130dp"
+        android:text="Colesterol ridicat - pacientul a fost anunțat de cadre medicale că are tensiunea arterială mare\n         0 - nu     1 - da"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -110,8 +110,8 @@
         android:id="@+id/textView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="120dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="188dp"
         android:text="Sănătate generală - Notă acordată pentru sănătate în general\nîntre 1 și 5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -120,8 +120,8 @@
         android:id="@+id/textView48"
         android:layout_width="390dp"
         android:layout_height="54dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="257dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="314dp"
         android:text="Activitate fizică - Indică dacă pacientul a avut activitate fizică în ultimele 30 de zile în afara locului de muncă\n         0 - nu     1 - da"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -130,8 +130,8 @@
         android:id="@+id/textView53"
         android:layout_width="378dp"
         android:layout_height="196dp"
-        android:layout_marginStart="14dp"
-        android:layout_marginTop="578dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="611dp"
         android:text="Venit - Venitul per locuință\n1 – Sub 10.000$ \n2 – Între 10.000 și 15.000$\n3 – Între 15.000 și 20.000$\n4 – Între 20.000 și 25.000$\n5 – Între 25.000 și 35.000$\n6 – Între 35.000 și 50.000$ \n7 – Între 50.000 și 75.000$\n8 – Peste 75.000$ "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -140,14 +140,12 @@
         android:id="@+id/about_diabetes_back_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="302dp"
-        android:layout_marginEnd="21dp"
+        android:layout_marginEnd="6dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="#84B5B5"
         android:text="Înapoi"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

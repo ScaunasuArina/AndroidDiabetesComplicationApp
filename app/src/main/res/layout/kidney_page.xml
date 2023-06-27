@@ -98,7 +98,7 @@
 
     <EditText
         android:id="@+id/kidney_white_blood_cell_count_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -111,7 +111,7 @@
 
     <EditText
         android:id="@+id/kidney_age_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="70dp"
@@ -123,7 +123,7 @@
 
     <EditText
         android:id="@+id/kidney_blood_pressure_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -136,7 +136,7 @@
 
     <EditText
         android:id="@+id/kidney_blood_glucose_random_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -149,7 +149,7 @@
 
     <EditText
         android:id="@+id/kidney_blood_urea_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -162,7 +162,7 @@
 
     <EditText
         android:id="@+id/kidney_serum_creatine_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -175,7 +175,7 @@
 
     <EditText
         android:id="@+id/kidney_sodium_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -188,7 +188,7 @@
 
     <EditText
         android:id="@+id/kidney_potassium_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -201,7 +201,7 @@
 
     <EditText
         android:id="@+id/kidney_packed_cell_volume_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"
@@ -214,7 +214,7 @@
 
     <EditText
         android:id="@+id/kidney_hemoglobin_text"
-        android:layout_width="wrap_content"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:ems="10"

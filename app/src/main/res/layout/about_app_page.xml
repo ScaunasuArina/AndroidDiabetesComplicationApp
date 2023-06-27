@@ -26,7 +26,7 @@
         android:layout_height="233dp"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="7dp"
-        android:text="Aplicatia &quot;Healthify&quot; are ca scop atat identificarea prezentei diabetului la un pacient, cat si prezenta riscului de a dezvolta boli renale sau cardiovasculare.\n\nBolile cardiovasculare si renale au fost alese, deoarece reprezinta unele dintre cele mai raspandite complicatii ale diabetului. Alaturi de aceste complicatii sunt si cele precum afectiuni ale vederii, afectiuni ale creierului, afectiuni ale membrelor corpului si afectiuni ale pielii."
+        android:text="Aplicația &quot;Healthify&quot; are ca scop atât identificarea prezenței diabetului la un pacient, cât și prezența riscului de a dezvolta boli renale sau cardiovasculare.\n\nBolile cardiovasculare și renale au fost alese, deoarece reprezintă unele dintre cele mai răspândite complicații ale diabetului. Alături de aceste complicații sunt și cele precum afecțiuni ale vederii, afecțiuni ale creierului, afecțiuni ale membrelor corpului și afecțiuni ale pielii."
         android:textAlignment="center"
         android:textSize="16sp"
         app:layout_constraintBottom_toBottomOf="parent"
